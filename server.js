@@ -1,11 +1,11 @@
 var express = require("express");
-var connection = mysql.createConnection(process.env.JAWSDB_URL || {
-  host: "localhost",
-  port: 3307,
-  user: "root",
-  password: "root",
-  database: "burger_db"
-});
+// var connection = mysql.createConnection(process.env.JAWSDB_URL || {
+//   host: "localhost",
+//   port: 3307,
+//   user: "root",
+//   password: "root",
+//   database: "burger_db"
+// });
 
 var PORT = process.env.PORT || 8080;
 
